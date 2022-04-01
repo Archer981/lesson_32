@@ -22,7 +22,7 @@ class SwaggerTestCase(TestCase):
 
         self.assertTrue(
             application_info.get("summary") == "Application update",
-            "Проверьте, что к эндпоинту /api/dogs/ (метод GET) имеется пояснение Application update,"
+            "Проверьте, что к эндпоинту /api/petstore/{id}/ (метод PATCH) имеется пояснение Application update,"
             f" тогда как у Вас - {application_info.get('summary')}"
         )
 
@@ -32,4 +32,3 @@ class SwaggerTestCase(TestCase):
             response.status_code == 200,
             "Проверьте, что страница с документацией по API доступна и открывается в браузере."
         )
-

@@ -6,9 +6,9 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data
     environment:
-      POSTGRES_USER: skypro_l31
-      POSTGRES_PASSWORD: skypro_l31
-      POSTGRES_DB: skypro_l31
+      POSTGRES_USER: skypro_l32
+      POSTGRES_PASSWORD: skypro_l32
+      POSTGRES_DB: skypro_l32
     restart: always
     ports:
     - "5432:5432"
