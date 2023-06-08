@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     "rest_framework.authtoken",
     "cats",
     "dogs",
-    "petstore"
+    "petstore",
+    "drf_spectacular",
 ]
 
 MIDDLEWARE = [
